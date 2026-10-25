@@ -74,13 +74,15 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="site-shell">
+  <div id="top" class="site-shell">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Back to top">
         <span class="brand-mark">AS</span>
         <span>Abakkiou Soufiane</span>
       </a>
       <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
         <a href="#process">Process</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -90,7 +92,7 @@ onUnmounted(() => {
       </a>
     </header>
 
-    <main id="top">
+    <main id="main-content">
       <section class="hero" :style="heroStyle" aria-labelledby="hero-title">
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-glow" aria-hidden="true"></div>
@@ -127,7 +129,7 @@ onUnmounted(() => {
           <p>Recruiters should see more than the final screen. This is how I approach a new challenge.</p>
         </div>
         <div class="process-list">
-          <button v-for="(step, index) in processSteps" :key="step.label" class="process-item" :class="{ active: activeProcess === index }" @mouseenter="setActiveProcess(index)" @focus="setActiveProcess(index)" @click="setActiveProcess(index)">
+          <button v-for="(step, index) in processSteps" :key="step.label" type="button" class="process-item" :class="{ active: activeProcess === index }" :aria-pressed="activeProcess === index" @mouseenter="setActiveProcess(index)" @focus="setActiveProcess(index)" @click="setActiveProcess(index)">
             <span class="process-number">0{{ index + 1 }}</span>
             <span class="process-name">{{ step.label }}</span>
             <span class="process-description">{{ step.text }}</span>
@@ -179,6 +181,6 @@ onUnmounted(() => {
         <a class="contact-link" href="https://www.linkedin.com/in/soufiane-abakkiou-b2b9772a3" target="_blank" rel="noreferrer">Say hello on LinkedIn <span>↗</span></a>
       </section>
     </main>
-    <footer><span>© 2025 Abakkiou Soufiane</span><span>Fictional exercise profile</span><a href="#top">Back to top ↑</a></footer>
+    <footer><span>© 2026 Abakkiou Soufiane</span><span>Fictional exercise profile</span><a href="#top">Back to top ↑</a></footer>
   </div>
 </template>
