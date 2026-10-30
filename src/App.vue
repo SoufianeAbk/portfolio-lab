@@ -1,5 +1,6 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue'
+import cvUrl from './public/soufiane-abakkiou-cv.pdf'
 
 const pointer = ref({ x: 50, y: 35 })
 const activeProcess = ref(0)
@@ -102,6 +103,7 @@ onUnmounted(() => {
           <p class="hero-intro">I’m Abakkiou Soufiane, a junior IT professional focused on turning challenges into practical digital solutions.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+            <a class="button button-primary" :href="cvUrl" target="_blank" rel="noreferrer">Download CV</a>
             <a class="text-link" href="#process">How I work <span>↘</span></a>
           </div>
         </div>
