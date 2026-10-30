@@ -181,6 +181,6 @@ onUnmounted(() => {
         <a class="contact-link" href="https://www.linkedin.com/in/soufiane-abakkiou-b2b9772a3" target="_blank" rel="noreferrer">Say hello on LinkedIn <span>↗</span></a>
       </section>
     </main>
-    <footer><span>© 2026 Abakkiou Soufiane</span><span>Fictional exercise profile</span><a href="#top">Back to top ↑</a></footer>
+    <footer><span>© 2026 Abakkiou Soufiane</span><span>Professional portfolio</span><a href="#top">Back to top ↑</a></footer>
   </div>
 </template>

@@ -1,8 +1,8 @@
 # Abakkiou Soufiane — portfolio
 
 Static Vue 3 portfolio for Abakkiou Soufiane, a junior IT professional. The
-site is an explicitly marked fictional exercise profile and presents approved
-projects, skills, working process and a public LinkedIn contact link.
+site presents approved projects, skills, working process and a public
+LinkedIn contact link.
 
 ## Requirements
 
