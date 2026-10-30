@@ -1,6 +1,6 @@
 # Abakkiou Soufiane — portfolio
 
-Static Vue 3 portfolio for Abakkiou Soufiane, a junior IT professional. The
+Static Vue 3 portfolio of Abakkiou Soufiane, a junior IT professional. The
 site presents approved projects, skills, working process and a public
 LinkedIn contact link.
 
