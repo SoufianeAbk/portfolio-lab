@@ -86,6 +86,7 @@ onUnmounted(() => {
         <a href="#about">About</a>
         <a href="#process">Process</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Toolkit</a>
         <a href="#contact">Contact</a>
       </nav>
       <a class="header-link" href="https://www.linkedin.com/in/soufiane-abakkiou-b2b9772a3" target="_blank" rel="noreferrer">
