@@ -99,7 +99,7 @@ onUnmounted(() => {
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-glow" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow"><span class="pulse-dot"></span> Portfolio / 2025</p>
+          <p class="eyebrow"><span class="pulse-dot"></span> Portfolio / 2026</p>
           <h1 id="hero-title">Building useful<br /><em>things, thoughtfully.</em></h1>
           <p class="hero-intro">I’m Abakkiou Soufiane, a junior IT professional focused on turning challenges into practical digital solutions.</p>
           <div class="hero-actions">
