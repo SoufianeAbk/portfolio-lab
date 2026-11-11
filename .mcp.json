@@ -3,6 +3,10 @@
 		"github": {
 			"type": "http",
 			"url": "https://api.githubcopilot.com/mcp/"
+		},
+		"n8n": {
+			"type": "http",
+			"url": "http://localhost:5678/mcp-server/http"
 		}
 	}
 }
